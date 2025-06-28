@@ -11,6 +11,8 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Hello, develop checkOut branch")
+            Text("Hello, main branch")
+            Text("some chanched")
         }
         .padding()
     }
