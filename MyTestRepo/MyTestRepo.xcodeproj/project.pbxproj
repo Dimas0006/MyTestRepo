@@ -6,28 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		E034E9492E102C3D008036F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E034E9432E102C3D008036F0 /* Preview Assets.xcassets */; };
-		E034E94A2E102C3D008036F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E034E9452E102C3D008036F0 /* Assets.xcassets */; };
-		E034E94B2E102C3D008036F0 /* NewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E034E93C2E102C3D008036F0 /* NewModel.swift */; };
-		E034E94C2E102C3D008036F0 /* MainScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E034E93E2E102C3D008036F0 /* MainScreenModel.swift */; };
-		E034E94D2E102C3D008036F0 /* MainScreenModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E034E93F2E102C3D008036F0 /* MainScreenModelView.swift */; };
-		E034E94E2E102C3D008036F0 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E034E9402E102C3D008036F0 /* MainScreenView.swift */; };
-		E034E94F2E102C3D008036F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E034E9462E102C3D008036F0 /* ContentView.swift */; };
-		E034E9502E102C3D008036F0 /* MyTestRepoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E034E9472E102C3D008036F0 /* MyTestRepoApp.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		E034E83A2E101A65008036F0 /* MyTestRepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTestRepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E034E93C2E102C3D008036F0 /* NewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewModel.swift; sourceTree = "<group>"; };
-		E034E93E2E102C3D008036F0 /* MainScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenModel.swift; sourceTree = "<group>"; };
-		E034E93F2E102C3D008036F0 /* MainScreenModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenModelView.swift; sourceTree = "<group>"; };
-		E034E9402E102C3D008036F0 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
-		E034E9432E102C3D008036F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E034E9452E102C3D008036F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E034E9462E102C3D008036F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E034E9472E102C3D008036F0 /* MyTestRepoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestRepoApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E034E83C2E101A65008036F0 /* MyTestRepo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyTestRepo;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E034E8372E101A65008036F0 /* Frameworks */ = {
@@ -43,7 +32,7 @@
 		E034E8312E101A65008036F0 = {
 			isa = PBXGroup;
 			children = (
-				E034E9482E102C3D008036F0 /* MyTestRepo */,
+				E034E83C2E101A65008036F0 /* MyTestRepo */,
 				E034E83B2E101A65008036F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,53 +43,6 @@
 				E034E83A2E101A65008036F0 /* MyTestRepo.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E034E93D2E102C3D008036F0 /* Logic Layer */ = {
-			isa = PBXGroup;
-			children = (
-				E034E93C2E102C3D008036F0 /* NewModel.swift */,
-			);
-			path = "Logic Layer";
-			sourceTree = "<group>";
-		};
-		E034E9412E102C3D008036F0 /* MainScreen */ = {
-			isa = PBXGroup;
-			children = (
-				E034E9402E102C3D008036F0 /* MainScreenView.swift */,
-				E034E93F2E102C3D008036F0 /* MainScreenModelView.swift */,
-				E034E93E2E102C3D008036F0 /* MainScreenModel.swift */,
-			);
-			path = MainScreen;
-			sourceTree = "<group>";
-		};
-		E034E9422E102C3D008036F0 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				E034E9412E102C3D008036F0 /* MainScreen */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		E034E9442E102C3D008036F0 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				E034E9432E102C3D008036F0 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		E034E9482E102C3D008036F0 /* MyTestRepo */ = {
-			isa = PBXGroup;
-			children = (
-				E034E93D2E102C3D008036F0 /* Logic Layer */,
-				E034E9422E102C3D008036F0 /* Modules */,
-				E034E9442E102C3D008036F0 /* Preview Content */,
-				E034E9452E102C3D008036F0 /* Assets.xcassets */,
-				E034E9462E102C3D008036F0 /* ContentView.swift */,
-				E034E9472E102C3D008036F0 /* MyTestRepoApp.swift */,
-			);
-			path = MyTestRepo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +59,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E034E83C2E101A65008036F0 /* MyTestRepo */,
 			);
 			name = MyTestRepo;
 			packageProductDependencies = (
@@ -164,8 +109,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E034E9492E102C3D008036F0 /* Preview Assets.xcassets in Resources */,
-				E034E94A2E102C3D008036F0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,12 +119,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E034E94B2E102C3D008036F0 /* NewModel.swift in Sources */,
-				E034E94C2E102C3D008036F0 /* MainScreenModel.swift in Sources */,
-				E034E94D2E102C3D008036F0 /* MainScreenModelView.swift in Sources */,
-				E034E94E2E102C3D008036F0 /* MainScreenView.swift in Sources */,
-				E034E94F2E102C3D008036F0 /* ContentView.swift in Sources */,
-				E034E9502E102C3D008036F0 /* MyTestRepoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
